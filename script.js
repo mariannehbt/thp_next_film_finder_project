@@ -1,5 +1,5 @@
 const selector = document.getElementById('myMovie');
-const myKey = prompt('Hello ! :) Entre ta clé API ici :');
+const myKey = prompt('Hello ! :) Entre ta clé API ici stp :');
 const urlOrigin = 'http://www.omdbapi.com/?apikey=' + myKey + '&s=';
 
 async function showMoviesList(selector, poster, name, year, imdbID) {
